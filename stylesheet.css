@@ -19,13 +19,13 @@ body{
 }
 
 .navbar-brand {
-   padding-top:25px;	
+   padding-top:5px;	
 }
 
 .navbar-brand h1{
    font-family: 'lora', serif;
    color: #557c3e;
-   font-size: 1.5e;
+   font-size: 1.5em;
    text-transform: uppercase;
    font-weight: bold;
    text-shadow: 1px 1px 1px #222;
@@ -45,4 +45,5 @@ body{
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle;
    margin-top: 0;
+   font-size: .75em;
 }
