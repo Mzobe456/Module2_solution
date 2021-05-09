@@ -44,5 +44,5 @@ body{
 }
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle;
-   margin-top: 3px;
+   margin-top: 0;
 }
