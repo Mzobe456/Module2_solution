@@ -40,6 +40,7 @@ body{
    color: #000;
    font-size: .7em;
    margin-top: 15px;
+   clear: left;
 }
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle'
