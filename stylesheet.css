@@ -71,5 +71,5 @@ body{
    paddding-right: 15px; 
 }
 .navbar-hearder button.navbar-toggle, .navbar-header .icon-bar {
-   boarder: 1px solid #61122f
+   boarder: 1px solid #61122f;
 }
