@@ -12,7 +12,7 @@ body{
 	border: 0;
 }
 #logo-img {
-   background: url('https://github.com/Mzobe456/Module2_solution/blob/gh-pages/275077-naruto-itachi-headband.png') no-repeat;
+   background: url('') no-repeat;
    width: 100px;
    height: 100px;
    margin: 5px 5px 0px 0;
@@ -43,7 +43,6 @@ body{
 }
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle;
-   height: 10px;
 }
 
 #nav-list {
