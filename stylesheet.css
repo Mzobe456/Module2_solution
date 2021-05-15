@@ -43,4 +43,31 @@ body{
 }
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle;
+   font-size: 10%;
+}
+
+#nav-list {
+   margin-top: 10px;
+}
+#nav-list a{
+   color: #951C49;
+   text-align: center;
+}
+#nav-list a:hover {
+   background: #7E7E7;
+}
+#nav-list a span {
+   font-size: 1.8em;
+}
+#phone {
+   margin: 5px;
+}
+#phone a {
+   text-align: right;
+   padding-tottom: 0;
+}
+#phone div {
+   color: #557c3e;
+   text-align: right;
+   paddding-right: 15px; 
 }
