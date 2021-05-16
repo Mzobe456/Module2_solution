@@ -39,7 +39,8 @@ body{
 .navbar-brand p { /* Naruto */
    color: #000;
    font-size: .7em;
-   margin-top: 15px;   
+   margin-top: 15px; 
+   text-transform: uppercase;
 }
 .navbar-brand p span { /* Shippuden */
    vertical-align: middle;
@@ -76,4 +77,45 @@ body{
 .navbar-header button.navbar-toggle {
    clear: both;
    margin-top: -30px;
+}
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********* Meduam devices only ********/
+@media (min_width:992px) and (max-width: 991px) {
+	#logo-img {
+	  /*backgrond: url('100x100 image') no-repeat;*/
+	  width: 50px;
+	  height: 50px;
+	  margin: 4px 4px 4px 0;
+	} /* end header */
+	   
+}
+
+/******* Small devices only *******/
+@media (min-width: 768px) and (max-width:997px) {
+   
+}
+
+/******* Extra small devices only *******/
+@media (mix-wigth: 767px) {
+	/* Header */
+	.navbar-brand {
+	paddind-top: 5px;
+	height: 40px; 
+	}
+	.navbar-brand h1 {/* Naruto */
+	padding-top: 5px;
+	font-size: 3vw; /* 1vw = 1% of viewpoint width */
+	}
+	.navbar-brand p { /* Shippuden */
+	font-size: 3em;
+	margin-top: 12px;
+	}
+
 }
